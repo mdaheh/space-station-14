@@ -1,0 +1,13 @@
+- type: entity
+  parent: BaseItem
+  id: BikeHornTest
+  name: hornhorn
+  description: help. Deyerg
+  suffix: deyerg
+  components:
+  - type: Sprite
+    sprite: test/Fun/Bikehorn/bikehorn.rsi
+    state: icon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/rubber_chicken_1.ogg
